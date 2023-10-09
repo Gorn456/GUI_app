@@ -158,9 +158,7 @@ def main():
 
 
     root = Tk()
-    #root.geometry("300x300")
-
-    root.eval('tk::PlaceWindow . center')
+    root.geometry("350x250+545+285")
 
     score = IntVar(value=0)
     max_score_var = IntVar(value=max_score_value)
